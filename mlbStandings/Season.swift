@@ -10,5 +10,6 @@ import Foundation
 import RealmSwift
 
 class Season: Object {
-  
+  @objc dynamic var year = ""
+  var teams = List<Team>()
 }

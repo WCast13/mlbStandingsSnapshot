@@ -12,6 +12,8 @@
 		3D8454AF20A46CF900C78ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8454AD20A46CF900C78ECD /* Main.storyboard */; };
 		3D8454B120A46CFB00C78ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8454B020A46CFB00C78ECD /* Assets.xcassets */; };
 		3D8454B420A46CFB00C78ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8454B220A46CFB00C78ECD /* LaunchScreen.storyboard */; };
+		3DEDC94C20A6219B00665924 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDC94B20A6219B00665924 /* Team.swift */; };
+		3DEDC94E20A6269300665924 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDC94D20A6269300665924 /* Game.swift */; };
 		3DEF26BD20A61AB300E3A9E7 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF26BC20A61AB300E3A9E7 /* Season.swift */; };
 		DD6A21EE0555A0F5976CA98A /* Pods_mlbStandings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306B7A37A285E022906E19AE /* Pods_mlbStandings.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 		3D8454B020A46CFB00C78ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D8454B320A46CFB00C78ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D8454B520A46CFB00C78ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEDC94B20A6219B00665924 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		3DEDC94D20A6269300665924 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3DEF26BC20A61AB300E3A9E7 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		76142FE4234A02F74D54357A /* Pods-mlbStandings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mlbStandings.release.xcconfig"; path = "Pods/Target Support Files/Pods-mlbStandings/Pods-mlbStandings.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,8 @@
 				3D8454B220A46CFB00C78ECD /* LaunchScreen.storyboard */,
 				3D8454B520A46CFB00C78ECD /* Info.plist */,
 				3DEF26BC20A61AB300E3A9E7 /* Season.swift */,
+				3DEDC94B20A6219B00665924 /* Team.swift */,
+				3DEDC94D20A6269300665924 /* Game.swift */,
 			);
 			path = mlbStandings;
 			sourceTree = "<group>";
@@ -209,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEDC94C20A6219B00665924 /* Team.swift in Sources */,
+				3DEDC94E20A6269300665924 /* Game.swift in Sources */,
 				3D8454AC20A46CF900C78ECD /* ViewController.swift in Sources */,
 				3DEF26BD20A61AB300E3A9E7 /* Season.swift in Sources */,
 				3D8454AA20A46CF900C78ECD /* AppDelegate.swift in Sources */,
